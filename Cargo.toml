@@ -1,0 +1,21 @@
+[workspace]
+members = [
+
+# Intro
+    "problems/mipt/combinations",
+    "problems/mipt/conway",
+    "problems/mipt/min-queue",
+
+# Library Collections
+    "problems/mipt/prefix",
+    "problems/mipt/lru-cache",
+
+# Traits
+    #"problems/mipt/trust",
+    
+###############################################################################
+
+# Basics
+    "problems/shad/comm",
+    "problems/shad/puzzle",
+]

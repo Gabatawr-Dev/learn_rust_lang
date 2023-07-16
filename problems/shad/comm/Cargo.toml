@@ -1,0 +1,24 @@
+[package]
+name = "comm"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+criterion = "0.3"
+pretty_assertions = "0.7"
+rand = "0.8"
+tempfile = "3"
+
+[[bench]]
+name = "benches"
+harness = false
+
+# 1$ cargo build --release
+# 2$ clang++ src/main.cpp -o ../../../target/release/comm_cpp -O3
+# 3$ cargo bench
+
+#my result
+#50k_50k/rust            time:   [175.84 ms 180.44 ms 183.71 ms]
+#50k_50k/cpp             time:   [155.44 ms 156.61 ms 157.62 ms]
+#0_100k/rust             time:   [51.267 ms 51.834 ms 53.110 ms]
+#0_100k/cpp              time:   [141.05 ms 142.55 ms 144.26 ms]
