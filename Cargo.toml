@@ -11,7 +11,8 @@ members = [
     "problems/mipt/lru-cache",
 
 # Traits
-    #"problems/mipt/trust",
+    "problems/mipt/trust",
+    "problems/mipt/mpsc",
     
 ###############################################################################
 
