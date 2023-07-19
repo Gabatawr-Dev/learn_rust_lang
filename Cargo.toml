@@ -13,6 +13,7 @@ members = [
 # Traits
     "problems/mipt/trust",
     "problems/mipt/mpsc",
+    "problems/mipt/itertools",
     
 ###############################################################################
 
